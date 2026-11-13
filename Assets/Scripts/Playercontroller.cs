@@ -23,6 +23,6 @@ public class PlayerController : MonoBehaviour
     {
         moveInput = moveAction.ReadValue<Vector2>();
         transform.Translate(Vector3.right * moveInput.x * Time.deltaTime * playerSpeed);
-        transform.Translate(Vector3.up * moveInput.y * Time.deltaTime * playerSpeed);
+        transform.Translate(Vector3.up * moveInput.y * Time.deltaTime * playerSpeed);  
     }
 }

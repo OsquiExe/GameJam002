@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Chico
   - Chica
+  - PlayerAttack
   layers:
   - Default
   - TransparentFX

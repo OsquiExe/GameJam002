@@ -106,6 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f049a91bbe46a14daa0ab9b82a53542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  stuckTime: 1.5
 --- !u!61 &1132752826804794098
 BoxCollider2D:
   m_ObjectHideFlags: 0

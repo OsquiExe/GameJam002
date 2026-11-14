@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d719a2c1fa6b8164fb474b8a4ccd6b6e
+guid: 052aeb250a599eb4eb23605814c79734
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5677563006414071838
-    second: "Bot\xF3n volver_0"
+      213: -4790179708418838662
+    second: btn_dificultad 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Bot\xF3n volver_0"
+      name: btn_dificultad 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 597
-        height: 110
+        x: 13
+        y: 13
+        width: 508
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e18a53b2971cace40800000000000000
-      internalID: 5677563006414071838
+      spriteID: a7f29654fecd58db0800000000000000
+      internalID: -4790179708418838662
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Bot\xF3n volver_0": 5677563006414071838
+      btn_dificultad 1_0: -4790179708418838662
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

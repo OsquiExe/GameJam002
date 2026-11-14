@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b7bf71f79748ff541a884d02291ce8c3
+guid: f0a404844b9198f4ba2277cd5e82ad63
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1864690920008635046
-    second: "Bot\xF3n C\xD3MO JUGAR_0"
+      213: -1146438614375365577
+    second: eq_06_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Bot\xF3n C\xD3MO JUGAR_0"
+      name: eq_06_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 600
-        height: 110
+        x: 23
+        y: 23
+        width: 1862
+        height: 161
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5d2df0ec794f16e0800000000000000
-      internalID: -1864690920008635046
+      spriteID: 7348d5187280710f0800000000000000
+      internalID: -1146438614375365577
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Bot\xF3n C\xD3MO JUGAR_0": -1864690920008635046
+      eq_06_0: -1146438614375365577
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

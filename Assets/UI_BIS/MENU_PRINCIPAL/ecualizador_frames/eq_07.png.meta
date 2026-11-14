@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a2d4a8f6f9962a24b93021485d4753ce
+guid: d2912f64369fb614fbce751c4ffeb7b9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2650397600280251531
-    second: "Bot\xF3n Normal_0"
+      213: -978243948467810556
+    second: eq_07_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Bot\xF3n Normal_0"
+      name: eq_07_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 600
-        height: 110
+        x: 23
+        y: 23
+        width: 1862
+        height: 161
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8c8046339a18c420800000000000000
-      internalID: 2650397600280251531
+      spriteID: 40f86e3df449c62f0800000000000000
+      internalID: -978243948467810556
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Bot\xF3n Normal_0": 2650397600280251531
+      eq_07_0: -978243948467810556
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

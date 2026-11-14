@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b9eb961b19615e044bcf757d91f2d661
+guid: 6ad216c5731a99242a876073ad56fcc7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 103776431438606739
-    second: "Bot\xF3n FAC\xCDL_0"
+      213: 5563495074800872551
+    second: "Fondo_Men\xFA_CASETTE_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Bot\xF3n FAC\xCDL_0"
+      name: "Fondo_Men\xFA_CASETTE_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 600
-        height: 110
+        width: 1980
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 391b4f35d10b07100800000000000000
-      internalID: 103776431438606739
+      spriteID: 76c242b3b41853d40800000000000000
+      internalID: 5563495074800872551
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Bot\xF3n FAC\xCDL_0": 103776431438606739
+      "Fondo_Men\xFA_CASETTE_0": 5563495074800872551
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

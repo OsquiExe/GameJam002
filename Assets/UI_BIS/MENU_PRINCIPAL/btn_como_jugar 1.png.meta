@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 97fe48ecfe93aeb4f808382ac1a8068a
+guid: e9694015f3bdb3f42afd2d8e849a1c09
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4757979925278858416
-    second: "bot\xF3n_configuraci\xF3n_0"
+      213: -1467237312356553863
+    second: btn_como_jugar 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "bot\xF3n_configuraci\xF3n_0"
+      name: btn_como_jugar 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 600
-        height: 110
+        x: 13
+        y: 13
+        width: 508
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0536051877248fdb0800000000000000
-      internalID: -4757979925278858416
+      spriteID: 97be9cb207353abe0800000000000000
+      internalID: -1467237312356553863
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "bot\xF3n_configuraci\xF3n_0": -4757979925278858416
+      btn_como_jugar 1_0: -1467237312356553863
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

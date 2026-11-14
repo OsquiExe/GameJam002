@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 29dc97987ec3b2a4eb61a6a5035e908e
+guid: 420370037d7dbd1409e595cd06b35f68
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4000857284845782594
-    second: "Bot\xF3n dificil_0"
+      213: 6847722148267254714
+    second: eq_02_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Bot\xF3n dificil_0"
+      name: eq_02_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 600
-        height: 110
+        x: 23
+        y: 23
+        width: 1862
+        height: 161
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb9bbb33f791a78c0800000000000000
-      internalID: -4000857284845782594
+      spriteID: ab36b08530ff70f50800000000000000
+      internalID: 6847722148267254714
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Bot\xF3n dificil_0": -4000857284845782594
+      eq_02_0: 6847722148267254714
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

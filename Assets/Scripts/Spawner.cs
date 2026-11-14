@@ -75,6 +75,7 @@ public class Spawner : MonoBehaviour
                     continue;
 
                 GameObject obj = Instantiate(enemyPrefab, hit.position, Quaternion.identity);
+                enemies.Add(obj);
                 obj.GetComponent<Enemy>().Init(q.patrolPoints, CurrentSpeed);
                 found = true;
             }

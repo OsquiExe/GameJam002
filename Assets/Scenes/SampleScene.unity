@@ -547,10 +547,6 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4048730229854152424, guid: 99afb6b67090d3047a32585b19ceca3f, type: 3}
-      propertyPath: attackAction.m_SingletonActionBindings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4048730229854152424, guid: 99afb6b67090d3047a32585b19ceca3f, type: 3}
       propertyPath: moveAction.m_SingletonActionBindings.Array.data[0].m_Id
       value: 559110fe-261e-4246-acc9-2f413b079d98
       objectReference: {fileID: 0}
@@ -569,10 +565,6 @@ PrefabInstance:
     - target: {fileID: 4048730229854152424, guid: 99afb6b67090d3047a32585b19ceca3f, type: 3}
       propertyPath: moveAction.m_SingletonActionBindings.Array.data[4].m_Id
       value: f70f21b7-33ff-4a67-b101-185b16276724
-      objectReference: {fileID: 0}
-    - target: {fileID: 4048730229854152424, guid: 99afb6b67090d3047a32585b19ceca3f, type: 3}
-      propertyPath: attackAction.m_SingletonActionBindings.Array.data[0].m_Id
-      value: 58bdf0d9-c3c7-4406-b9ce-994a610c00b4
       objectReference: {fileID: 0}
     - target: {fileID: 4048730229854152424, guid: 99afb6b67090d3047a32585b19ceca3f, type: 3}
       propertyPath: moveAction.m_SingletonActionBindings.Array.data[0].m_Name
@@ -635,10 +627,6 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4048730229854152424, guid: 99afb6b67090d3047a32585b19ceca3f, type: 3}
-      propertyPath: attackAction.m_SingletonActionBindings.Array.data[0].m_Path
-      value: <Keyboard>/space
-      objectReference: {fileID: 0}
-    - target: {fileID: 4048730229854152424, guid: 99afb6b67090d3047a32585b19ceca3f, type: 3}
       propertyPath: moveAction.m_SingletonActionBindings.Array.data[0].m_Action
       value: Move
       objectReference: {fileID: 0}
@@ -657,10 +645,6 @@ PrefabInstance:
     - target: {fileID: 4048730229854152424, guid: 99afb6b67090d3047a32585b19ceca3f, type: 3}
       propertyPath: moveAction.m_SingletonActionBindings.Array.data[4].m_Action
       value: Move
-      objectReference: {fileID: 0}
-    - target: {fileID: 4048730229854152424, guid: 99afb6b67090d3047a32585b19ceca3f, type: 3}
-      propertyPath: attackAction.m_SingletonActionBindings.Array.data[0].m_Action
-      value: Attack
       objectReference: {fileID: 0}
     - target: {fileID: 8124066090143772322, guid: 99afb6b67090d3047a32585b19ceca3f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -731,16 +715,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1127155805}
     - target: {fileID: 450741741481272295, guid: 9c8a1eb2d75301f43855fa0769e46a64, type: 3}
-      propertyPath: attackAction.m_Name
-      value: Attack
-      objectReference: {fileID: 0}
-    - target: {fileID: 450741741481272295, guid: 9c8a1eb2d75301f43855fa0769e46a64, type: 3}
       propertyPath: moveAction.m_SingletonActionBindings.Array.size
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 450741741481272295, guid: 9c8a1eb2d75301f43855fa0769e46a64, type: 3}
-      propertyPath: attackAction.m_SingletonActionBindings.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 450741741481272295, guid: 9c8a1eb2d75301f43855fa0769e46a64, type: 3}
       propertyPath: moveAction.m_SingletonActionBindings.Array.data[0].m_Id
@@ -761,10 +737,6 @@ PrefabInstance:
     - target: {fileID: 450741741481272295, guid: 9c8a1eb2d75301f43855fa0769e46a64, type: 3}
       propertyPath: moveAction.m_SingletonActionBindings.Array.data[4].m_Id
       value: 92199cf7-0c0f-4991-8744-007f8e042572
-      objectReference: {fileID: 0}
-    - target: {fileID: 450741741481272295, guid: 9c8a1eb2d75301f43855fa0769e46a64, type: 3}
-      propertyPath: attackAction.m_SingletonActionBindings.Array.data[0].m_Id
-      value: 05603515-c594-4764-ace1-c1ad44dc4395
       objectReference: {fileID: 0}
     - target: {fileID: 450741741481272295, guid: 9c8a1eb2d75301f43855fa0769e46a64, type: 3}
       propertyPath: moveAction.m_SingletonActionBindings.Array.data[0].m_Name
@@ -827,10 +799,6 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 450741741481272295, guid: 9c8a1eb2d75301f43855fa0769e46a64, type: 3}
-      propertyPath: attackAction.m_SingletonActionBindings.Array.data[0].m_Path
-      value: <Keyboard>/space
-      objectReference: {fileID: 0}
-    - target: {fileID: 450741741481272295, guid: 9c8a1eb2d75301f43855fa0769e46a64, type: 3}
       propertyPath: moveAction.m_SingletonActionBindings.Array.data[0].m_Action
       value: Move
       objectReference: {fileID: 0}
@@ -849,10 +817,6 @@ PrefabInstance:
     - target: {fileID: 450741741481272295, guid: 9c8a1eb2d75301f43855fa0769e46a64, type: 3}
       propertyPath: moveAction.m_SingletonActionBindings.Array.data[4].m_Action
       value: Move
-      objectReference: {fileID: 0}
-    - target: {fileID: 450741741481272295, guid: 9c8a1eb2d75301f43855fa0769e46a64, type: 3}
-      propertyPath: attackAction.m_SingletonActionBindings.Array.data[0].m_Action
-      value: Attack
       objectReference: {fileID: 0}
     - target: {fileID: 469684658455546374, guid: 9c8a1eb2d75301f43855fa0769e46a64, type: 3}
       propertyPath: m_Name

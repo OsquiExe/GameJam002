@@ -8,12 +8,11 @@ public class PlayerController : MonoBehaviour
     public float playerSpeed;
     public InputAction moveAction;
     private Vector2 moveInput;
-    private Vector2 lastMoveDirection;
     [SerializeField]private GameObject golpePrefab;
-    private Vector2 positionToLook;
     public InputAction attackAction;
 
     private float activateInterval = 1.5f;
+    private float waitActivateAttack = 0.0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -26,7 +25,11 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         MovePlayer();
-        if (attackAction.WasPressedThisFrame())
+        if (waitActivateAttack > 0)
+        {
+            waitActivateAttack -= Time.deltaTime;
+        }
+        else if (attackAction.WasPressedThisFrame())
         {
             Attack();
         }   
@@ -36,19 +39,18 @@ public class PlayerController : MonoBehaviour
     {
         moveInput = moveAction.ReadValue<Vector2>();
 
-        if (moveInput != Vector2.zero)
-        {
-            float angle = Mathf.Atan2(moveInput.y, moveInput.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0, 0, angle);
-        }
-
         transform.Translate(Vector3.right * moveInput.x * Time.deltaTime * playerSpeed, Space.World);
         transform.Translate(Vector3.up * moveInput.y * Time.deltaTime * playerSpeed, Space.World);  
     }
 
     void Attack()
     {
-        StartCoroutine(ActivateHit()); 
+        if (waitActivateAttack <= 0)
+        {
+            StartCoroutine(ActivateHit());
+            waitActivateAttack = activateInterval;
+        }
+        
     }    
     IEnumerator ActivateHit()
     {

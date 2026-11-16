@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI scoreText;
     public GameObject panelTrapped;
+    public GameObject panelGameOver;
+
     private int playersTrapped = 0;
 
     void Start()
@@ -41,6 +43,7 @@ public class GameManager : MonoBehaviour
 
         if (playersTrapped == 1)
         {
+            panelGameOver.SetActive(false);
             Debug.Log("atrapado");
             panelTrapped.SetActive(true);
         }
@@ -69,5 +72,6 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Game Over! Final Score: " + score);
         panelTrapped.SetActive(false);
+        panelGameOver.SetActive(true);
     }
 }

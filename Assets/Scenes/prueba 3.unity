@@ -4991,7 +4991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pause
   panelPausa: {fileID: 1510370085}
-  panelVolumen: {fileID: 5036811861119228443, guid: 30cf005933f342a4782a6d93458a8d97, type: 3}
+  panelVolumen: {fileID: 0}
   estaPausado: 0
 --- !u!1 &477094946
 GameObject:

@@ -1,59 +1,33 @@
-using Unity.VisualScripting;
+
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using static UnityEngine.Rendering.DebugUI;
 
 public class ControlVolumen : MonoBehaviour
 {
+    public Slider sliderVolumen;
+    public AudioSource musica;
 
-    public Slider sliderMusic;
-    public Slider sliderEfects;
-
-    void OnEnable()
+    private void Start()
     {
-        if (!gameObject.activeInHierarchy)
-            return;
+        float volumenGuardado = 0.7f;
 
-        if (sliderMusic != null)
+        if (PlayerPrefs.HasKey("VolumenMusica"))
         {
-            sliderMusic.value = PlayerPrefs.GetFloat("VolumenMusica", 0.75f);
-            sliderMusic.onValueChanged.RemoveAllListeners();
-            sliderMusic.onValueChanged.AddListener(CambiarMusica);
+            volumenGuardado = PlayerPrefs.GetFloat("VolumenMusica");
         }
 
-        if (sliderEfects != null)
-        {
-            sliderEfects.value = PlayerPrefs.GetFloat("VolumenEfectos", 0.50f);
-            sliderEfects.onValueChanged.RemoveAllListeners();
-            sliderEfects.onValueChanged.AddListener(CambiarEfectos);
+        sliderVolumen.value = volumenGuardado;
+        musica.volume = volumenGuardado;
 
-            EventTrigger trigger = sliderEfects.GetComponent<EventTrigger>();
-            if (trigger == null)
-                trigger = sliderEfects.gameObject.AddComponent<EventTrigger>();
-
-            trigger.triggers.Clear();
-
-            EventTrigger.Entry soltar = new EventTrigger.Entry();
-            soltar.eventID = EventTriggerType.PointerUp;
-            soltar.callback.AddListener((data) => { SoltarEfectos(); });
-            trigger.triggers.Add(soltar);
-        }
-    }
-    public void CambiarMusica(float value)
-    {
-       if (GeneralMusic.instancia != null)
-            GeneralMusic.instancia.CambiarMusica(value);
-    }
-    public void CambiarEfectos(float value)
-    {
-    if (GeneralMusic.instancia != null)
-        GeneralMusic.instancia.CambiarEfectos(value);
+        sliderVolumen.onValueChanged.AddListener(CambiarVolumen);
 
     }
-    public void SoltarEfectos()
+
+    public void CambiarVolumen(float newVolumen)
     {
-        if (GeneralMusic.instancia != null)
-            GeneralMusic.instancia.ProbarEfecto();
+        musica.volume = newVolumen;
+        PlayerPrefs.SetFloat("VolumenMusica", newVolumen);
+        PlayerPrefs.Save();
+
     }
 }

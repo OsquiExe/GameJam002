@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class Pause : MonoBehaviour
 {
     public GameObject panelPausa;
+    public GameObject panelVolumen;
     public bool estaPausado = false;
 
     void Update()

@@ -10,8 +10,11 @@ public class ControlVolumen : MonoBehaviour
     public Slider sliderMusic;
     public Slider sliderEfects;
 
-    void Start()
+    void OnEnable()
     {
+        if (!gameObject.activeInHierarchy)
+            return;
+
         if (sliderMusic != null)
         {
             sliderMusic.value = PlayerPrefs.GetFloat("VolumenMusica", 0.75f);

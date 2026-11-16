@@ -36,10 +36,17 @@ public class GameManager : MonoBehaviour
     public void PlayerTrapped()
     {
         playersTrapped++;
+
+        if (playersTrapped == 1)
+        {
+            Debug.Log("atrapado");
+        }
+
         if (playersTrapped >= 2)
         {
             GameOver();
         }
+
     }
 
     public void PlayerFreed()

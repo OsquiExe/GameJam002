@@ -37,4 +37,9 @@ public void IrAlMenu()
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
+    public void Config()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Panel_cofig");
+    }
 }

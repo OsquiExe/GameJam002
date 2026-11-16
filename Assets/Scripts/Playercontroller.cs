@@ -10,13 +10,19 @@ public class PlayerController : MonoBehaviour
     private Vector2 moveInput;
     [SerializeField] private GameObject golpePrefab;
     public InputAction attackAction;
+    private GameManager gameManager;
 
+    private bool isTrapped = false;
     private float activateInterval = 1.5f;
     private float waitActivateAttack = 0.0f;
 
     // Última dirección en la que te moviste (por defecto, hacia arriba)
     private Vector2 lastDirection = Vector2.up;
 
+    private void Awake()
+    {
+        gameManager = FindFirstObjectByType<GameManager>();
+    }
     void Start()
     {
         moveAction.Enable();
@@ -74,5 +80,41 @@ public class PlayerController : MonoBehaviour
         golpePrefab.SetActive(true);
         yield return new WaitForSeconds(activateInterval);
         golpePrefab.SetActive(false);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy") && !isTrapped)
+        {
+            gameManager.PlayerTrapped();
+            isTrapped = true;
+            GetComponent<SpriteRenderer>().color = Color.yellow;
+            moveAction.Disable();
+            attackAction.Disable();
+        }
+        if (collision.gameObject.CompareTag("Heart"))
+        {
+            gameManager.AddScore(1000);
+        }
+    }
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("Chico") || collision.gameObject.CompareTag("Chica"))
+        {
+            gameManager.PlayerFreed();
+            isTrapped = false;
+            if(CompareTag("Chico"))
+            {
+                GetComponent<SpriteRenderer>().color = Color.green;
+            }
+            else if (CompareTag("Chica"))
+            {
+                GetComponent<SpriteRenderer>().color = Color.red;
+            }
+            moveAction.Enable();
+            attackAction.Enable();
+        }
     }
 }

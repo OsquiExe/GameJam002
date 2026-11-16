@@ -10,6 +10,7 @@ public class Quadrant
     public Vector2 spawnCenter;         // Centro de la zona de spawn (posición en el mundo)
     public Vector2 spawnSize = new Vector2(10f, 10f);
     public Transform[] patrolPoints;    // Puntos de patrulla de ESTE cuadrante
+
 }
 
 public class Spawner : MonoBehaviour
@@ -17,6 +18,9 @@ public class Spawner : MonoBehaviour
 
 
     [SerializeField] private GameObject enemyPrefab;
+    [SerializeField] private GameObject heartPrefab;
+    [SerializeField] private Transform[] heartSpawnPoint;
+    private int indexSpawnHeart = 0;
     [SerializeField] private Quadrant[] quadrants = new Quadrant[4];
     [SerializeField] private float navMeshSearchRadius = 3f;
     [SerializeField] private LayerMask obstacleMask; 
@@ -37,6 +41,7 @@ public class Spawner : MonoBehaviour
         {
             SpawnQuadrant(q);
         }
+        Instantiate(heartPrefab, heartSpawnPoint[indexSpawnHeart].position, Quaternion.identity);
     }
 
     public void NextLevel()
@@ -49,6 +54,8 @@ public class Spawner : MonoBehaviour
 
         foreach (Quadrant q in quadrants)
             SpawnQuadrant(q);
+        indexSpawnHeart = (indexSpawnHeart + 1) % heartSpawnPoint.Length;
+        Instantiate(heartPrefab, heartSpawnPoint[indexSpawnHeart].position, Quaternion.identity);
     }
 
     private void SpawnQuadrant(Quadrant q)
@@ -81,7 +88,11 @@ public class Spawner : MonoBehaviour
             }
 
             if (!found)
-                Debug.LogWarning($"No se encontró posición válida en '{q.name}'.");
+            {
+                Debug.LogWarning($"No se encontró posición válida en '{q.name}'. Reiniciando");
+                SpawnQuadrant(q);
+            }
+                
         }
     }
 

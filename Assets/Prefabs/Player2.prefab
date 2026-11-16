@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   playerPrefab: {fileID: 469684658455546374}
-  playerSpeed: 10
+  playerSpeed: 3
   moveAction:
     m_Name: Move
     m_Type: 0
@@ -248,7 +248,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &9152667764074977770
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,6 +333,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 179.523
       objectReference: {fileID: 0}
+    - target: {fileID: 2661536712029912095, guid: 67bdf28dc52e7ed4c96c823fa1469a9d, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3407381086589131934, guid: 67bdf28dc52e7ed4c96c823fa1469a9d, type: 3}
       propertyPath: m_Name
       value: Golpe
@@ -341,11 +345,54 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3407381086589131934, guid: 67bdf28dc52e7ed4c96c823fa1469a9d, type: 3}
+      propertyPath: m_TagString
+      value: PlayerAttack
+      objectReference: {fileID: 0}
+    - target: {fileID: 4175520940139837152, guid: 67bdf28dc52e7ed4c96c823fa1469a9d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3407381086589131934, guid: 67bdf28dc52e7ed4c96c823fa1469a9d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7106851649928132272}
   m_SourcePrefab: {fileID: 100100000, guid: 67bdf28dc52e7ed4c96c823fa1469a9d, type: 3}
+--- !u!1 &6143681904300774913 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3407381086589131934, guid: 67bdf28dc52e7ed4c96c823fa1469a9d, type: 3}
+  m_PrefabInstance: {fileID: 8794348302311115423}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &7106851649928132272
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6143681904300774913}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!4 &8016222461514728763 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1528016550060593060, guid: 67bdf28dc52e7ed4c96c823fa1469a9d, type: 3}

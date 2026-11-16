@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     private GameManager gameManager;
 
     private bool isTrapped = false;
-    private float activateInterval = 1.5f;
+    private float activateInterval = 0.5f;
     private float waitActivateAttack = 0.0f;
 
     // Última dirección en la que te moviste (por defecto, hacia arriba)
@@ -51,8 +51,15 @@ public class PlayerController : MonoBehaviour
         {
             lastDirection = moveInput.normalized;
         }
-
-        transform.Translate(Vector3.right * moveInput.x * Time.deltaTime * playerSpeed, Space.World);
+        if(gameManager.PlayersTrapped > 0 && CompareTag("Chica"))
+        {
+            transform.Translate(Vector3.left * moveInput.x * Time.deltaTime * playerSpeed, Space.World);
+        }
+        else
+        {
+            transform.Translate(Vector3.right * moveInput.x * Time.deltaTime * playerSpeed, Space.World);
+        }
+        
         transform.Translate(Vector3.up * moveInput.y * Time.deltaTime * playerSpeed, Space.World);
     }
 
@@ -81,10 +88,9 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(activateInterval);
         golpePrefab.SetActive(false);
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void Trapped()
     {
-        if (collision.CompareTag("Enemy") && !isTrapped)
+        if (!isTrapped)
         {
             gameManager.PlayerTrapped();
             isTrapped = true;
@@ -92,12 +98,14 @@ public class PlayerController : MonoBehaviour
             moveAction.Disable();
             attackAction.Disable();
         }
-        if (collision.gameObject.CompareTag("Heart"))
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy"))
         {
-            gameManager.AddScore(1000);
+            Trapped();
         }
     }
-
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

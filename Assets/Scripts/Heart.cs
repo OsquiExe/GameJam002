@@ -5,10 +5,11 @@ public class Heart : MonoBehaviour
 {
     private bool touchMale = false;
     private bool touchFemale = false;
-
+    private GameManager gameManager;
     private Spawner spawner;
     void Awake()
     {
+        gameManager = FindFirstObjectByType<GameManager>();
         spawner = FindFirstObjectByType<Spawner>();
     }
 
@@ -17,6 +18,8 @@ public class Heart : MonoBehaviour
     {
         if(touchMale && touchFemale)
         {
+            gameManager.AddScore(1000);
+            gameManager.AddTime();
             spawner.NextLevel();
             Destroy(gameObject);
         }

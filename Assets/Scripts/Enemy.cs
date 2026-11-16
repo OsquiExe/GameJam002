@@ -10,7 +10,14 @@
         private float stuckTimer;
         private GameManager gameManager;
         private int vida = 1;
-    
+
+        [Header("Trampas")]
+        [SerializeField] private GameObject trapPrefab;
+        [SerializeField] private float trapInterval = 5f;
+        [SerializeField] private float trapLifetime = 10f; // si es 0 no desaparece
+        [SerializeField] private bool placesTraps = false;
+        private float trapTimer;
+
         void Awake()
         {
             gameManager = FindFirstObjectByType<GameManager>();
@@ -18,23 +25,37 @@
             agent.updateRotation = false;
             agent.updateUpAxis = false;
             agent.avoidancePriority = Random.Range(30, 70);
-        }
-
-        // Lo llama el spawner justo después de instanciar al enemigo
-        public void Init(Transform[] points, float speed)
+            vida = gameManager.EnemiesLife;
+    }
+        public void Init(Transform[] points, float speed, bool placesTraps)
         {
             patrolPoints = points;
             agent.speed = speed;
+            this.placesTraps = placesTraps;
             GoToRandomPoint();
         }
+        private void HandleTraps()
+        {
+            if (!placesTraps || trapPrefab == null) return;
+
+            trapTimer += Time.deltaTime;
+            if (trapTimer >= trapInterval)
+            {
+                trapTimer = 0f;
+                GameObject trap = Instantiate(trapPrefab, transform.position, Quaternion.identity);
+                if (trapLifetime > 0f) Destroy(trap, trapLifetime);
+            }
+        }
+
 
         void Update()
         {
+            HandleTraps();
+
             if (patrolPoints == null || patrolPoints.Length == 0) return;
             if (!agent.isOnNavMesh) return;
             if (agent.pathPending) return;
 
-            // Llegó al destino
             if (agent.remainingDistance <= agent.stoppingDistance)
             {
                 if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
@@ -45,7 +66,6 @@
                 return;
             }
 
-            // Va en camino pero casi no avanza: probablemente atascado
             if (agent.velocity.sqrMagnitude < 0.01f)
             {
                 stuckTimer += Time.deltaTime;
@@ -77,7 +97,8 @@
                 if(vida <= 0)
                 {
                     gameManager.AddScore(100);
-                    Destroy(gameObject);
+                    gameManager.AddTime(5);
+                Destroy(gameObject);
                 }
             }
         }

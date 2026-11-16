@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject golpePrefab;
     public InputAction attackAction;
     private GameManager gameManager;
+    private Animator animator;
 
     private bool isTrapped = false;
     private float activateInterval = 0.5f;
@@ -22,6 +23,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         gameManager = FindFirstObjectByType<GameManager>();
+        animator = GetComponent<Animator>();
     }
     void Start()
     {
@@ -45,6 +47,43 @@ public class PlayerController : MonoBehaviour
     void MovePlayer()
     {
         moveInput = moveAction.ReadValue<Vector2>();
+        if(animator != null)
+        {
+            animator.SetFloat("Horizontal", moveInput.x);
+            animator.SetFloat("Vertical", moveInput.y);
+        }
+
+        if (moveInput.x < -0.2f)
+        {
+            GetComponent<SpriteRenderer>().flipX = true;
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().flipX = false;
+        }
+        /*if (CompareTag("Chico"))
+        {
+            if (moveInput.x < -0.2f)
+            {
+                GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else
+            {
+                GetComponent<SpriteRenderer>().flipX = true;
+            }
+        }
+        else if (CompareTag("Chica"))
+        {
+            if (moveInput.x < -0.2f)
+            {
+                GetComponent<SpriteRenderer>().flipX = true;
+            }
+            else
+            {
+                GetComponent<SpriteRenderer>().flipX = false;
+            }
+        }*/
+        
 
         // Solo actualizamos la dirección si realmente hay input
         if (moveInput.sqrMagnitude > 0.01f)
@@ -115,7 +154,7 @@ public class PlayerController : MonoBehaviour
             isTrapped = false;
             if(CompareTag("Chico"))
             {
-                GetComponent<SpriteRenderer>().color = Color.green;
+                GetComponent<SpriteRenderer>().color = Color.violet;
             }
             else if (CompareTag("Chica"))
             {

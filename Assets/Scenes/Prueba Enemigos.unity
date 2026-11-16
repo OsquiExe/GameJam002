@@ -4305,7 +4305,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 224793974}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 457985207}
+        m_TargetAssemblyTypeName: Pause, Assembly-CSharp
+        m_MethodName: Reiniciar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &224793974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8249,10 +8261,10 @@ RectTransform:
   - {fileID: 1954980688}
   m_Father: {fileID: 526613851}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -8.021484, y: 406.9589}
-  m_SizeDelta: {x: -1063.4692, y: -979.9132}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 36, y: -80.7626}
+  m_SizeDelta: {x: 1011.9098, y: 95.5259}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1158419923
 MonoBehaviour:
@@ -8697,7 +8709,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1234191170}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 457985207}
+        m_TargetAssemblyTypeName: Pause, Assembly-CSharp
+        m_MethodName: IrAlMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1234191170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10558,10 +10582,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1158419922}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.3, y: -0.000027657}
-  m_SizeDelta: {x: 835.93, y: 75.043}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -22, y: -50.000027}
+  m_SizeDelta: {x: 908.9033, y: 75.043}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1954980689
 MonoBehaviour:
@@ -10583,7 +10607,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tu compa\xF1ero ha sido atrapado, liberalo!"
+  m_text: "Tu compa\xF1ero esta atrapado, ac\xE9rcate a \xE9l para liberarlo"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4d0051938504e564992264c064c0698c, type: 2}
   m_sharedMaterial: {fileID: -5692979743692793862, guid: 4d0051938504e564992264c064c0698c, type: 2}
@@ -10610,8 +10634,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -10649,7 +10673,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.5230103, y: 0, z: -1.770935, w: 0}
+  m_margin: {x: 1.5230103, y: 0, z: -45.099182, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

@@ -24,7 +24,7 @@ public void Pausar()
 public void Reiniciar()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Prueba Enemigos");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 public void Reanudar()
     {

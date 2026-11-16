@@ -116,6 +116,16 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
+  golpePrefab: {fileID: 0}
+  attackAction:
+    m_Name: Attack
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: cbc88d03-1482-407d-9351-d648f9b361e9
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!61 &5840641226963753258
 BoxCollider2D:
   m_ObjectHideFlags: 0

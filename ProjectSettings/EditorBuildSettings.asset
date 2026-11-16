@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 5a293373a3b057c438d02283799430c2
   - enabled: 1
-    path: Assets/Scenes/Prueba Enemigos.unity
+    path: Assets/Scenes/Gameplay.unity
     guid: a80cfe6f91f9d544ca4ae25d1e4fe90a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

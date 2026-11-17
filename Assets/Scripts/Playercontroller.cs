@@ -137,6 +137,11 @@ public class PlayerController : MonoBehaviour
     {
         // Ángulo de lastDirection respecto a "arriba" (que es la orientación por defecto del golpe)
         float angle = Vector2.SignedAngle(Vector2.up, lastDirection);
+        if (CompareTag("Chica") && gameManager.PlayersTrapped > 0)
+        {
+            angle = Vector2.SignedAngle(Vector2.down, lastDirection);
+        }
+        
 
         // Rotamos el golpe sobre el eje Z
         golpePrefab.transform.rotation = Quaternion.Euler(0f, 0f, angle);

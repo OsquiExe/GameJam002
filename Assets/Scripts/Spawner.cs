@@ -5,11 +5,11 @@ using UnityEngine.AI;
 [System.Serializable]
 public class Quadrant
 {
-    public string name;                 // Solo para identificarlo en el Inspector
-    public int enemyCount = 3;          // Cuántos enemigos se generan aquí
-    public Vector2 spawnCenter;         // Centro de la zona de spawn (posición en el mundo)
+    public string name;                 
+    public int enemyCount = 3;          
+    public Vector2 spawnCenter;         
     public Vector2 spawnSize = new Vector2(10f, 10f);
-    public Transform[] patrolPoints;    // Puntos de patrulla de ESTE cuadrante
+    public Transform[] patrolPoints;    
 
 }
 
@@ -30,11 +30,17 @@ public class Spawner : MonoBehaviour
     [SerializeField] private float baseSpeed = 2f;
     [SerializeField] private float speedIncrease = 0.5f;
     [SerializeField] private float maxSpeed = 8f;
-
+    
     private int level = 0;
     private List<GameObject> enemies = new List<GameObject>();
     private float CurrentSpeed => Mathf.Min(baseSpeed + speedIncrease * level, maxSpeed);
 
+    private GameManager gameManager;
+
+    private void Awake()
+    {
+        gameManager = FindFirstObjectByType<GameManager>();
+    }
     void Start()
     {
         foreach (Quadrant q in quadrants)
@@ -77,19 +83,17 @@ public class Spawner : MonoBehaviour
                 if (!NavMesh.SamplePosition(pos, out NavMeshHit hit, navMeshSearchRadius, NavMesh.AllAreas))
                     continue;
 
-                // Segunda verificación contra el Tilemap Collider
                 if (Physics2D.OverlapCircle(hit.position, checkRadius, obstacleMask))
                     continue;
 
                 GameObject obj = Instantiate(enemyPrefab, hit.position, Quaternion.identity);
                 enemies.Add(obj);
-                obj.GetComponent<Enemy>().Init(q.patrolPoints, CurrentSpeed);
+                obj.GetComponent<Enemy>().Init(q.patrolPoints, CurrentSpeed, gameManager.Difficulty > 2); // Solo en dificultad difícil se colocan trampas
                 found = true;
             }
 
             if (!found)
             {
-                Debug.LogWarning($"No se encontró posición válida en '{q.name}'. Reiniciando");
                 SpawnQuadrant(q);
             }
                 

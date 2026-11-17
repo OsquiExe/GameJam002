@@ -11,17 +11,22 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject golpePrefab;
     public InputAction attackAction;
     private GameManager gameManager;
+    private Animator animator;
 
     private bool isTrapped = false;
-    private float activateInterval = 1.5f;
+    private float activateInterval = 0.5f;
     private float waitActivateAttack = 0.0f;
 
     // Última dirección en la que te moviste (por defecto, hacia arriba)
     private Vector2 lastDirection = Vector2.up;
 
+    private SpriteRenderer spriteRenderer;
+
     private void Awake()
     {
         gameManager = FindFirstObjectByType<GameManager>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
     void Start()
     {
@@ -45,14 +50,40 @@ public class PlayerController : MonoBehaviour
     void MovePlayer()
     {
         moveInput = moveAction.ReadValue<Vector2>();
+        if(animator != null)
+        {
+            animator.SetFloat("Horizontal", moveInput.x);
+            animator.SetFloat("Vertical", moveInput.y);
+        }
 
-        // Solo actualizamos la dirección si realmente hay input
+
+
         if (moveInput.sqrMagnitude > 0.01f)
         {
             lastDirection = moveInput.normalized;
-        }
 
-        transform.Translate(Vector3.right * moveInput.x * Time.deltaTime * playerSpeed, Space.World);
+            // Solo voltear cuando hay movimiento horizontal claro
+            if (Mathf.Abs(moveInput.x) > 0.2f)
+            {
+                if ((CompareTag("Chica") && gameManager.PlayersTrapped > 0) == false)
+                {
+                    spriteRenderer.flipX = moveInput.x < 0;
+                }
+                else
+                {
+                    spriteRenderer.flipX = moveInput.x > 0;
+                }
+            }
+        }
+        if (CompareTag("Chica") && gameManager.PlayersTrapped > 0)
+        {
+            transform.Translate(Vector3.left * moveInput.x * Time.deltaTime * playerSpeed, Space.World);
+        }
+        else
+        {
+            transform.Translate(Vector3.right * moveInput.x * Time.deltaTime * playerSpeed, Space.World);
+        }
+        
         transform.Translate(Vector3.up * moveInput.y * Time.deltaTime * playerSpeed, Space.World);
     }
 
@@ -61,15 +92,56 @@ public class PlayerController : MonoBehaviour
         if (waitActivateAttack <= 0)
         {
             AimHit();
+            PlayAttackAnimation();
             StartCoroutine(ActivateHit());
             waitActivateAttack = activateInterval;
         }
+    }
+
+    public void SetKissMode(bool active)
+    {
+        if (active)
+        {
+            moveAction.Disable();
+            attackAction.Disable();
+        }
+        else
+        {
+            moveAction.Enable();
+            attackAction.Enable();
+        }
+
+        spriteRenderer.enabled = !active;
+        GetComponent<Collider2D>().enabled = !active; // para que ningún enemigo los atrape en pleno beso
+    }
+
+    void PlayAttackAnimation()
+    {
+        if (animator == null) return;
+
+        Vector2 dir = lastDirection;
+
+        // Quedarnos solo con el eje dominante (arriba, abajo o lado)
+        if (Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
+            dir = new Vector2(Mathf.Sign(dir.x), 0f);
+        else
+            dir = new Vector2(0f, Mathf.Sign(dir.y));
+
+        animator.SetFloat("AttackX", Mathf.Abs(dir.x));
+        animator.SetFloat("AttackY", dir.y);
+        animator.SetTrigger("Attack");
+        
     }
 
     void AimHit()
     {
         // Ángulo de lastDirection respecto a "arriba" (que es la orientación por defecto del golpe)
         float angle = Vector2.SignedAngle(Vector2.up, lastDirection);
+        if (CompareTag("Chica") && gameManager.PlayersTrapped > 0)
+        {
+            angle = Vector2.SignedAngle(Vector2.down, lastDirection);
+        }
+        
 
         // Rotamos el golpe sobre el eje Z
         golpePrefab.transform.rotation = Quaternion.Euler(0f, 0f, angle);
@@ -81,23 +153,25 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(activateInterval);
         golpePrefab.SetActive(false);
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void Trapped()
     {
-        if (collision.CompareTag("Enemy") && !isTrapped)
+        if (!isTrapped)
         {
+            animator.SetBool("Trapped", true);
             gameManager.PlayerTrapped();
             isTrapped = true;
-            GetComponent<SpriteRenderer>().color = Color.yellow;
+            spriteRenderer.color = Color.lightBlue;
             moveAction.Disable();
             attackAction.Disable();
         }
-        if (collision.gameObject.CompareTag("Heart"))
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy"))
         {
-            gameManager.AddScore(1000);
+            Trapped();
         }
     }
-
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -105,13 +179,14 @@ public class PlayerController : MonoBehaviour
         {
             gameManager.PlayerFreed();
             isTrapped = false;
-            if(CompareTag("Chico"))
+            animator.SetBool("Trapped", false);
+            if (CompareTag("Chico"))
             {
-                GetComponent<SpriteRenderer>().color = Color.green;
+                spriteRenderer.color = Color.white;
             }
             else if (CompareTag("Chica"))
             {
-                GetComponent<SpriteRenderer>().color = Color.red;
+                spriteRenderer.color = Color.white;
             }
             moveAction.Enable();
             attackAction.Enable();

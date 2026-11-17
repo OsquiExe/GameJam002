@@ -1,0 +1,1196 @@
+fileFormatVersion: 2
+guid: c8117ba8d3054314eb94b9684084f406
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 778496862608318763
+    second: ChicaSprites_0
+  - first:
+      213: 3361495205376100262
+    second: ChicaSprites_1
+  - first:
+      213: 5582899923704794302
+    second: ChicaSprites_2
+  - first:
+      213: 330468425575199185
+    second: ChicaSprites_3
+  - first:
+      213: -6984975116497379225
+    second: ChicaSprites_4
+  - first:
+      213: 218877462473863554
+    second: ChicaSprites_5
+  - first:
+      213: 3519579041255529518
+    second: ChicaSprites_6
+  - first:
+      213: 2831895823813605382
+    second: ChicaSprites_7
+  - first:
+      213: -6212678779561851449
+    second: ChicaSprites_8
+  - first:
+      213: 4881986552192473196
+    second: ChicaSprites_9
+  - first:
+      213: 1475495696021478558
+    second: ChicaSprites_10
+  - first:
+      213: 438516856424902654
+    second: ChicaSprites_11
+  - first:
+      213: 8428324018095106142
+    second: ChicaSprites_12
+  - first:
+      213: -8057011676085471779
+    second: ChicaSprites_13
+  - first:
+      213: -553529180755497505
+    second: ChicaSprites_14
+  - first:
+      213: -5583022565961813649
+    second: ChicaSprites_15
+  - first:
+      213: -5977651065542995449
+    second: ChicaSprites_16
+  - first:
+      213: -7404369202528427245
+    second: ChicaSprites_17
+  - first:
+      213: -435152342364243059
+    second: ChicaSprites_18
+  - first:
+      213: 1986603850444681176
+    second: ChicaSprites_19
+  - first:
+      213: -6374292909521662661
+    second: ChicaSprites_20
+  - first:
+      213: 983616912170221540
+    second: ChicaSprites_21
+  - first:
+      213: 4334195245533180782
+    second: ChicaSprites_22
+  - first:
+      213: 3795655515435601387
+    second: ChicaSprites_23
+  - first:
+      213: -4152318719274834364
+    second: ChicaSprites_24
+  - first:
+      213: 553991918318078477
+    second: ChicaSprites_25
+  - first:
+      213: 5105653320727463484
+    second: ChicaSprites_26
+  - first:
+      213: -8495428802132392332
+    second: ChicaSprites_27
+  - first:
+      213: -8891668102807372524
+    second: ChicaSprites_28
+  - first:
+      213: -110364067671863024
+    second: ChicaSprites_29
+  - first:
+      213: -7630015430016306519
+    second: ChicaSprites_30
+  - first:
+      213: 7874700486457882130
+    second: ChicaSprites_31
+  - first:
+      213: -8294390872480216895
+    second: ChicaSprites_32
+  - first:
+      213: 8246610267395453387
+    second: ChicaSprites_33
+  - first:
+      213: 2791403160448659385
+    second: ChicaSprites_34
+  - first:
+      213: -3519979203027980017
+    second: ChicaSprites_35
+  - first:
+      213: -407418766784073606
+    second: ChicaSprites_36
+  - first:
+      213: 3659667120740884421
+    second: ChicaSprites_37
+  - first:
+      213: -3036913505826163688
+    second: ChicaSprites_38
+  - first:
+      213: 2409308715149492846
+    second: ChicaSprites_39
+  - first:
+      213: 1614257559760739840
+    second: ChicaSprites_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChicaSprites_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1225
+        width: 145
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21668a95c6cdca00800000000000000
+      internalID: 778496862608318763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_1
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1225
+        width: 146
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a70f9e441e66ae20800000000000000
+      internalID: 3361495205376100262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_2
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1227
+        width: 152
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebccaf0b6e17a7d40800000000000000
+      internalID: 5582899923704794302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_3
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1220
+        width: 156
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d174eb384f069400800000000000000
+      internalID: 330468425575199185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_4
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1230
+        width: 148
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7602b38b322601f90800000000000000
+      internalID: -6984975116497379225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_5
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1232
+        width: 145
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281f71874eb990300800000000000000
+      internalID: 218877462473863554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_6
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1229
+        width: 147
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c12f09d7e08d030800000000000000
+      internalID: 3519579041255529518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_7
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1229
+        width: 148
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608725b6f3aec4720800000000000000
+      internalID: 2831895823813605382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_8
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 1229
+        width: 152
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5cb90f09128c9a0800000000000000
+      internalID: -6212678779561851449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_9
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 1233
+        width: 147
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c689aa147ec40c340800000000000000
+      internalID: 4881986552192473196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 967
+        width: 147
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c5afc94830a7410800000000000000
+      internalID: 1475495696021478558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_11
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 970
+        width: 147
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff2a3fe1cce51600800000000000000
+      internalID: 438516856424902654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_12
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 971
+        width: 162
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58a37e0a0c67f470800000000000000
+      internalID: 8428324018095106142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_13
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 962
+        width: 151
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd530c7819ebf2090800000000000000
+      internalID: -8057011676085471779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_14
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 965
+        width: 163
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd614094287158f0800000000000000
+      internalID: -553529180755497505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_15
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 967
+        width: 147
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f613bde6e8e1582b0800000000000000
+      internalID: -5583022565961813649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_16
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 973
+        width: 142
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702131fd60e1b0da0800000000000000
+      internalID: -5977651065542995449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_17
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 972
+        width: 170
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3136379b0756e3990800000000000000
+      internalID: -7404369202528427245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_18
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 973
+        width: 176
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b333a004706f9f0800000000000000
+      internalID: -435152342364243059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_19
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 976
+        width: 142
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dfad2f2da5d19b10800000000000000
+      internalID: 1986603850444681176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_20
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 682
+        width: 149
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d8ba90f56f987a0800000000000000
+      internalID: -6374292909521662661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_21
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 682
+        width: 146
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eff8f4ce5286ad00800000000000000
+      internalID: 983616912170221540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_22
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 684
+        width: 152
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63313dbc97262c30800000000000000
+      internalID: 4334195245533180782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_23
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 677
+        width: 156
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed8a4fb490eca430800000000000000
+      internalID: 3795655515435601387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_24
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 688
+        width: 148
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4462b6fef100066c0800000000000000
+      internalID: -4152318719274834364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_25
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 690
+        width: 145
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a49cbe6bc20b700800000000000000
+      internalID: 553991918318078477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_26
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 372
+        width: 145
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c360140f4acead640800000000000000
+      internalID: 5105653320727463484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_27
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 372
+        width: 145
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476c642e38c2a1a80800000000000000
+      internalID: -8495428802132392332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_28
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 372
+        width: 148
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41dbe7778f27a9480800000000000000
+      internalID: -8891668102807372524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_29
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 368
+        width: 157
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01193761778e77ef0800000000000000
+      internalID: -110364067671863024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_30
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 368
+        width: 127
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2f027546dbc1690800000000000000
+      internalID: -7630015430016306519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_31
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 370
+        width: 130
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216fae7de5e884d60800000000000000
+      internalID: 7874700486457882130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_32
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 372
+        width: 197
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c80391727764ec80800000000000000
+      internalID: -8294390872480216895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_33
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 372
+        width: 197
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1f1358858d17270800000000000000
+      internalID: 8246610267395453387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_34
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 596
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfe17b826e0db620800000000000000
+      internalID: 2791403160448659385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_35
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 374
+        width: 97
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0131c28095862fc0800000000000000
+      internalID: -3519979203027980017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_36
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 370
+        width: 112
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70f10b4ace885af0800000000000000
+      internalID: -407418766784073606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 78
+        width: 152
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cfdfe74bdfb9c230800000000000000
+      internalID: 3659667120740884421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_38
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 77
+        width: 153
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81435a7b147bad5d0800000000000000
+      internalID: -3036913505826163688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_39
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 78
+        width: 148
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e620db8e2859f6120800000000000000
+      internalID: 2409308715149492846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaSprites_40
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 74
+        width: 157
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e1789a2bef66610800000000000000
+      internalID: 1614257559760739840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChicaSprites_0: 778496862608318763
+      ChicaSprites_1: 3361495205376100262
+      ChicaSprites_10: 1475495696021478558
+      ChicaSprites_11: 438516856424902654
+      ChicaSprites_12: 8428324018095106142
+      ChicaSprites_13: -8057011676085471779
+      ChicaSprites_14: -553529180755497505
+      ChicaSprites_15: -5583022565961813649
+      ChicaSprites_16: -5977651065542995449
+      ChicaSprites_17: -7404369202528427245
+      ChicaSprites_18: -435152342364243059
+      ChicaSprites_19: 1986603850444681176
+      ChicaSprites_2: 5582899923704794302
+      ChicaSprites_20: -6374292909521662661
+      ChicaSprites_21: 983616912170221540
+      ChicaSprites_22: 4334195245533180782
+      ChicaSprites_23: 3795655515435601387
+      ChicaSprites_24: -4152318719274834364
+      ChicaSprites_25: 553991918318078477
+      ChicaSprites_26: 5105653320727463484
+      ChicaSprites_27: -8495428802132392332
+      ChicaSprites_28: -8891668102807372524
+      ChicaSprites_29: -110364067671863024
+      ChicaSprites_3: 330468425575199185
+      ChicaSprites_30: -7630015430016306519
+      ChicaSprites_31: 7874700486457882130
+      ChicaSprites_32: -8294390872480216895
+      ChicaSprites_33: 8246610267395453387
+      ChicaSprites_34: 2791403160448659385
+      ChicaSprites_35: -3519979203027980017
+      ChicaSprites_36: -407418766784073606
+      ChicaSprites_37: 3659667120740884421
+      ChicaSprites_38: -3036913505826163688
+      ChicaSprites_39: 2409308715149492846
+      ChicaSprites_4: -6984975116497379225
+      ChicaSprites_40: 1614257559760739840
+      ChicaSprites_5: 218877462473863554
+      ChicaSprites_6: 3519579041255529518
+      ChicaSprites_7: 2831895823813605382
+      ChicaSprites_8: -6212678779561851449
+      ChicaSprites_9: 4881986552192473196
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

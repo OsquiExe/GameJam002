@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: idle bomberman
+  m_Name: idle chica
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,7 +21,7 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 344809741, guid: e668212c1ddb14c47acbd50ac5a75293, type: 3}
+      value: {fileID: 3519579041255529518, guid: c8117ba8d3054314eb94b9684084f406, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,7 +44,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 344809741, guid: e668212c1ddb14c47acbd50ac5a75293, type: 3}
+    - {fileID: 3519579041255529518, guid: c8117ba8d3054314eb94b9684084f406, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

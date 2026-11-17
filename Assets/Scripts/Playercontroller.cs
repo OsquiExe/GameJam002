@@ -20,10 +20,13 @@ public class PlayerController : MonoBehaviour
     // Última dirección en la que te moviste (por defecto, hacia arriba)
     private Vector2 lastDirection = Vector2.up;
 
+    private SpriteRenderer spriteRenderer;
+
     private void Awake()
     {
         gameManager = FindFirstObjectByType<GameManager>();
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
     void Start()
     {
@@ -53,44 +56,26 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("Vertical", moveInput.y);
         }
 
-        if (moveInput.x < -0.2f)
-        {
-            GetComponent<SpriteRenderer>().flipX = true;
-        }
-        else
-        {
-            GetComponent<SpriteRenderer>().flipX = false;
-        }
-        /*if (CompareTag("Chico"))
-        {
-            if (moveInput.x < -0.2f)
-            {
-                GetComponent<SpriteRenderer>().flipX = false;
-            }
-            else
-            {
-                GetComponent<SpriteRenderer>().flipX = true;
-            }
-        }
-        else if (CompareTag("Chica"))
-        {
-            if (moveInput.x < -0.2f)
-            {
-                GetComponent<SpriteRenderer>().flipX = true;
-            }
-            else
-            {
-                GetComponent<SpriteRenderer>().flipX = false;
-            }
-        }*/
-        
 
-        // Solo actualizamos la dirección si realmente hay input
+
         if (moveInput.sqrMagnitude > 0.01f)
         {
             lastDirection = moveInput.normalized;
+
+            // Solo voltear cuando hay movimiento horizontal claro
+            if (Mathf.Abs(moveInput.x) > 0.2f)
+            {
+                if ((CompareTag("Chica") && gameManager.PlayersTrapped > 0) == false)
+                {
+                    spriteRenderer.flipX = moveInput.x < 0;
+                }
+                else
+                {
+                    spriteRenderer.flipX = moveInput.x > 0;
+                }
+            }
         }
-        if(gameManager.PlayersTrapped > 0 && CompareTag("Chica"))
+        if (CompareTag("Chica") && gameManager.PlayersTrapped > 0)
         {
             transform.Translate(Vector3.left * moveInput.x * Time.deltaTime * playerSpeed, Space.World);
         }
@@ -107,9 +92,45 @@ public class PlayerController : MonoBehaviour
         if (waitActivateAttack <= 0)
         {
             AimHit();
+            PlayAttackAnimation();
             StartCoroutine(ActivateHit());
             waitActivateAttack = activateInterval;
         }
+    }
+
+    public void SetKissMode(bool active)
+    {
+        if (active)
+        {
+            moveAction.Disable();
+            attackAction.Disable();
+        }
+        else
+        {
+            moveAction.Enable();
+            attackAction.Enable();
+        }
+
+        spriteRenderer.enabled = !active;
+        GetComponent<Collider2D>().enabled = !active; // para que ningún enemigo los atrape en pleno beso
+    }
+
+    void PlayAttackAnimation()
+    {
+        if (animator == null) return;
+
+        Vector2 dir = lastDirection;
+
+        // Quedarnos solo con el eje dominante (arriba, abajo o lado)
+        if (Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
+            dir = new Vector2(Mathf.Sign(dir.x), 0f);
+        else
+            dir = new Vector2(0f, Mathf.Sign(dir.y));
+
+        animator.SetFloat("AttackX", Mathf.Abs(dir.x));
+        animator.SetFloat("AttackY", dir.y);
+        animator.SetTrigger("Attack");
+        
     }
 
     void AimHit()
@@ -131,9 +152,10 @@ public class PlayerController : MonoBehaviour
     {
         if (!isTrapped)
         {
+            animator.SetBool("Trapped", true);
             gameManager.PlayerTrapped();
             isTrapped = true;
-            GetComponent<SpriteRenderer>().color = Color.yellow;
+            spriteRenderer.color = Color.lightBlue;
             moveAction.Disable();
             attackAction.Disable();
         }
@@ -152,13 +174,14 @@ public class PlayerController : MonoBehaviour
         {
             gameManager.PlayerFreed();
             isTrapped = false;
-            if(CompareTag("Chico"))
+            animator.SetBool("Trapped", false);
+            if (CompareTag("Chico"))
             {
-                GetComponent<SpriteRenderer>().color = Color.violet;
+                spriteRenderer.color = Color.white;
             }
             else if (CompareTag("Chica"))
             {
-                GetComponent<SpriteRenderer>().color = Color.red;
+                spriteRenderer.color = Color.white;
             }
             moveAction.Enable();
             attackAction.Enable();

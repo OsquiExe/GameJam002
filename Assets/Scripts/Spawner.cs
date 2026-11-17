@@ -94,7 +94,6 @@ public class Spawner : MonoBehaviour
 
             if (!found)
             {
-                Debug.LogWarning($"No se encontró posición válida en '{q.name}'. Reiniciando");
                 SpawnQuadrant(q);
             }
                 

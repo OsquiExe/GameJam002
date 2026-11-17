@@ -142,24 +142,24 @@ public class PlayerController : MonoBehaviour
 
     void AimHit()
     {
-        // Ángulo de lastDirection respecto a "arriba" (que es la orientación por defecto del golpe)
-        float angle = Vector2.SignedAngle(Vector2.up, lastDirection);
+        Vector2 aimDir = lastDirection;
+
         if (CompareTag("Chica") && gameManager.PlayersTrapped > 0)
         {
-            angle = Vector2.SignedAngle(Vector2.down, lastDirection);
+            aimDir.x = -aimDir.x;
         }
-        
 
-        // Rotamos el golpe sobre el eje Z
+        float angle = Vector2.SignedAngle(Vector2.up, aimDir);
         golpePrefab.transform.rotation = Quaternion.Euler(0f, 0f, angle);
+
     }
 
     IEnumerator ActivateHit()
     {
         golpePrefab.SetActive(true);
-        yield return new WaitForSeconds(activateInterval/2);
+        yield return new WaitForSeconds(activateInterval/4);
         colliderGolpePrefab.SetActive(true);
-        yield return new WaitForSeconds(activateInterval / 2);
+        yield return new WaitForSeconds(activateInterval * 3/ 4);
         golpePrefab.SetActive(false);
         colliderGolpePrefab.SetActive(false);
     }

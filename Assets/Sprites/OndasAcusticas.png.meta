@@ -1,0 +1,664 @@
+fileFormatVersion: 2
+guid: b039bb11fac38e64fb494a414ca19313
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4264253998790918421
+    second: OndasAcusticas_0
+  - first:
+      213: 6658094438318202713
+    second: OndasAcusticas_1
+  - first:
+      213: -4505933911708598324
+    second: OndasAcusticas_2
+  - first:
+      213: -6907502614006156298
+    second: OndasAcusticas_3
+  - first:
+      213: -7727664927870330720
+    second: OndasAcusticas_4
+  - first:
+      213: -3284994782823040687
+    second: OndasAcusticas_5
+  - first:
+      213: 6542609178022430808
+    second: OndasAcusticas_6
+  - first:
+      213: 8455804733027333795
+    second: OndasAcusticas_7
+  - first:
+      213: -1329757056374251644
+    second: OndasAcusticas_8
+  - first:
+      213: -6956980141480029730
+    second: OndasAcusticas_9
+  - first:
+      213: -5004261315618013501
+    second: OndasAcusticas_10
+  - first:
+      213: 3357485854211458585
+    second: OndasAcusticas_11
+  - first:
+      213: -6206112445476945353
+    second: OndasAcusticas_12
+  - first:
+      213: 7972614207007347714
+    second: OndasAcusticas_13
+  - first:
+      213: 5379374334090262872
+    second: OndasAcusticas_14
+  - first:
+      213: 7169972021610755856
+    second: OndasAcusticas_15
+  - first:
+      213: -8550552620297846075
+    second: OndasAcusticas_16
+  - first:
+      213: -9146523754762849865
+    second: OndasAcusticas_17
+  - first:
+      213: 4041473767164257589
+    second: OndasAcusticas_18
+  - first:
+      213: -1437549883451608844
+    second: OndasAcusticas_19
+  - first:
+      213: 3973644316268751557
+    second: OndasAcusticas_20
+  - first:
+      213: 7471733173681596064
+    second: OndasAcusticas_21
+  - first:
+      213: 753149495947150279
+    second: OndasAcusticas_22
+  - first:
+      213: -4492756318065355157
+    second: OndasAcusticas_23
+  - first:
+      213: -1606177107215957575
+    second: OndasAcusticas_24
+  - first:
+      213: -5293816326952257199
+    second: OndasAcusticas_25
+  - first:
+      213: 7623565340294781264
+    second: OndasAcusticas_26
+  - first:
+      213: -8260579009590453778
+    second: OndasAcusticas_27
+  - first:
+      213: -7452586499470664591
+    second: OndasAcusticas_28
+  - first:
+      213: -3151072748264187170
+    second: OndasAcusticas_29
+  - first:
+      213: -5650463365814642171
+    second: OndasAcusticas_30
+  - first:
+      213: -5209620923072778393
+    second: OndasAcusticas_31
+  - first:
+      213: -1333077281963001956
+    second: OndasAcusticas_32
+  - first:
+      213: 5119385014928559423
+    second: OndasAcusticas_33
+  - first:
+      213: -6721388952118558839
+    second: OndasAcusticas_34
+  - first:
+      213: 1888395279960327797
+    second: OndasAcusticas_35
+  - first:
+      213: -6627775609012770938
+    second: OndasAcusticas_36
+  - first:
+      213: 6142368802992431778
+    second: OndasAcusticas_37
+  - first:
+      213: -8377835548611257984
+    second: OndasAcusticas_38
+  - first:
+      213: 9087421490462837315
+    second: OndasAcusticas_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OndasAcusticas_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 722
+        width: 200
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511c8fd3b6cad2b30800000000000000
+      internalID: 4264253998790918421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndasAcusticas_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 724
+        width: 189
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fd5f49d9d466c50800000000000000
+      internalID: 6658094438318202713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndasAcusticas_2
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 733
+        width: 200
+        height: 355
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccff8331bf4b771c0800000000000000
+      internalID: -4505933911708598324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndasAcusticas_3
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 711
+        width: 231
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3b41758fe9320a0800000000000000
+      internalID: -6907502614006156298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndasAcusticas_4
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 709
+        width: 185
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a85b07e0b1d1c490800000000000000
+      internalID: -7727664927870330720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndasAcusticas_6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 726
+        width: 186
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858cc3812640cca50800000000000000
+      internalID: 6542609178022430808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndasAcusticas_11
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 728
+        width: 182
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9164cae789f289e20800000000000000
+      internalID: 3357485854211458585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndasAcusticas_15
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 727
+        width: 192
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0173995c09bd08360800000000000000
+      internalID: 7169972021610755856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndasAcusticas_19
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 716
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f076f95ffbcc0ce0800000000000000
+      internalID: -1437549883451608844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndasAcusticas_20
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 82
+        width: 214
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cae2fec378352730800000000000000
+      internalID: 3973644316268751557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndasAcusticas_21
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 73
+        width: 265
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a62bc90cbde0b760800000000000000
+      internalID: 7471733173681596064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndasAcusticas_22
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 82
+        width: 266
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3c1b8e979b37a00800000000000000
+      internalID: 753149495947150279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndasAcusticas_23
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 86
+        width: 210
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66925faee586a1c0800000000000000
+      internalID: -4492756318065355157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndasAcusticas_24
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 82
+        width: 225
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1470e4e66b5b9e0800000000000000
+      internalID: -1606177107215957575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndasAcusticas_28
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 83
+        width: 224
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17cdd217018139890800000000000000
+      internalID: -7452586499470664591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndasAcusticas_32
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 86
+        width: 220
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97b3766645ff7de0800000000000000
+      internalID: -1333077281963001956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndasAcusticas_36
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 86
+        width: 217
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687abc5f2396504a0800000000000000
+      internalID: -6627775609012770938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d303fbd132f7fe9419ee8744dd3a4502
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OndasAcusticas_0: 4264253998790918421
+      OndasAcusticas_1: 6658094438318202713
+      OndasAcusticas_10: -5004261315618013501
+      OndasAcusticas_11: 3357485854211458585
+      OndasAcusticas_12: -6206112445476945353
+      OndasAcusticas_13: 7972614207007347714
+      OndasAcusticas_14: 5379374334090262872
+      OndasAcusticas_15: 7169972021610755856
+      OndasAcusticas_16: -8550552620297846075
+      OndasAcusticas_17: -9146523754762849865
+      OndasAcusticas_18: 4041473767164257589
+      OndasAcusticas_19: -1437549883451608844
+      OndasAcusticas_2: -4505933911708598324
+      OndasAcusticas_20: 3973644316268751557
+      OndasAcusticas_21: 7471733173681596064
+      OndasAcusticas_22: 753149495947150279
+      OndasAcusticas_23: -4492756318065355157
+      OndasAcusticas_24: -1606177107215957575
+      OndasAcusticas_25: -5293816326952257199
+      OndasAcusticas_26: 7623565340294781264
+      OndasAcusticas_27: -8260579009590453778
+      OndasAcusticas_28: -7452586499470664591
+      OndasAcusticas_29: -3151072748264187170
+      OndasAcusticas_3: -6907502614006156298
+      OndasAcusticas_30: -5650463365814642171
+      OndasAcusticas_31: -5209620923072778393
+      OndasAcusticas_32: -1333077281963001956
+      OndasAcusticas_33: 5119385014928559423
+      OndasAcusticas_34: -6721388952118558839
+      OndasAcusticas_35: 1888395279960327797
+      OndasAcusticas_36: -6627775609012770938
+      OndasAcusticas_37: 6142368802992431778
+      OndasAcusticas_38: -8377835548611257984
+      OndasAcusticas_39: 9087421490462837315
+      OndasAcusticas_4: -7727664927870330720
+      OndasAcusticas_5: -3284994782823040687
+      OndasAcusticas_6: 6542609178022430808
+      OndasAcusticas_7: 8455804733027333795
+      OndasAcusticas_8: -1329757056374251644
+      OndasAcusticas_9: -6956980141480029730
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

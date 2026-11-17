@@ -1,59 +1,52 @@
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using static UnityEngine.Rendering.DebugUI;
 
 public class ControlVolumen : MonoBehaviour
 {
+    public Slider sliderVolumen;
+    public AudioSource musica;
 
-    public Slider sliderMusic;
-    public Slider sliderEfects;
-
-    void OnEnable()
+    void Start()
     {
-        if (!gameObject.activeInHierarchy)
-            return;
-
-        if (sliderMusic != null)
+        if (sliderVolumen == null)
         {
-            sliderMusic.value = PlayerPrefs.GetFloat("VolumenMusica", 0.75f);
-            sliderMusic.onValueChanged.RemoveAllListeners();
-            sliderMusic.onValueChanged.AddListener(CambiarMusica);
+            sliderVolumen = GameObject.Find("Slider_Volumen").GetComponent<Slider>();
         }
 
-        if (sliderEfects != null)
+        // Aquí está la clave: busca la música que NO se destruyó
+        GeneralMusic fondo = FindFirstObjectByType<GeneralMusic>();
+        if (fondo != null)
         {
-            sliderEfects.value = PlayerPrefs.GetFloat("VolumenEfectos", 0.50f);
-            sliderEfects.onValueChanged.RemoveAllListeners();
-            sliderEfects.onValueChanged.AddListener(CambiarEfectos);
-
-            EventTrigger trigger = sliderEfects.GetComponent<EventTrigger>();
-            if (trigger == null)
-                trigger = sliderEfects.gameObject.AddComponent<EventTrigger>();
-
-            trigger.triggers.Clear();
-
-            EventTrigger.Entry soltar = new EventTrigger.Entry();
-            soltar.eventID = EventTriggerType.PointerUp;
-            soltar.callback.AddListener((data) => { SoltarEfectos(); });
-            trigger.triggers.Add(soltar);
+            musica = fondo.GetComponent<AudioSource>();
         }
-    }
-    public void CambiarMusica(float value)
-    {
-       if (GeneralMusic.instancia != null)
-            GeneralMusic.instancia.CambiarMusica(value);
-    }
-    public void CambiarEfectos(float value)
-    {
-    if (GeneralMusic.instancia != null)
-        GeneralMusic.instancia.CambiarEfectos(value);
 
+        if (sliderVolumen == null || musica == null) return;
+
+        float volumenGuardado = 0.7f;
+        if (PlayerPrefs.HasKey("VolumenMusica"))
+            volumenGuardado = PlayerPrefs.GetFloat("VolumenMusica");
+
+        sliderVolumen.value = volumenGuardado;
+        musica.volume = volumenGuardado;
+
+        sliderVolumen.onValueChanged.RemoveAllListeners();
+        sliderVolumen.onValueChanged.AddListener(CambiarVolumen);
     }
-    public void SoltarEfectos()
+
+    public void CambiarVolumen(float nuevoVolumen)
     {
-        if (GeneralMusic.instancia != null)
-            GeneralMusic.instancia.ProbarEfecto();
+        // Si la música que teníamos ya se destruyó, la vuelve a buscar
+        if (musica == null)
+        {
+            GeneralMusic fondo = FindFirstObjectByType<GeneralMusic>();
+            if (fondo != null)
+                musica = fondo.GetComponent<AudioSource>();
+            else
+                return;
+        }
+
+        musica.volume = nuevoVolumen;
+        PlayerPrefs.SetFloat("VolumenMusica", nuevoVolumen);
+        PlayerPrefs.Save();
     }
 }

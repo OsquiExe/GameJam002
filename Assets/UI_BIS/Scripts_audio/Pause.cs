@@ -40,6 +40,6 @@ public void IrAlMenu()
     public void Config()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Panel_cofig");
+        SceneManager.LoadScene("Panel_audio_pause");
     }
 }

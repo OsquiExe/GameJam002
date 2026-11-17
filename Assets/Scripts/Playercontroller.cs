@@ -22,6 +22,11 @@ public class PlayerController : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
 
+    [Header("Sounds")]
+    public AudioSource attackSound;
+    public AudioSource trappedSound;
+    public AudioSource freedSound;
+
     private void Awake()
     {
         gameManager = FindFirstObjectByType<GameManager>();
@@ -92,6 +97,7 @@ public class PlayerController : MonoBehaviour
         if (waitActivateAttack <= 0)
         {
             AimHit();
+            if(attackSound) attackSound.Play();
             PlayAttackAnimation();
             StartCoroutine(ActivateHit());
             waitActivateAttack = activateInterval;
@@ -157,6 +163,7 @@ public class PlayerController : MonoBehaviour
     {
         if (!isTrapped)
         {
+            if(trappedSound) trappedSound.Play();
             animator.SetBool("Trapped", true);
             gameManager.PlayerTrapped();
             isTrapped = true;
@@ -178,6 +185,7 @@ public class PlayerController : MonoBehaviour
         if(collision.gameObject.CompareTag("Chico") || collision.gameObject.CompareTag("Chica"))
         {
             gameManager.PlayerFreed();
+            if (freedSound && isTrapped) freedSound.Play();
             isTrapped = false;
             animator.SetBool("Trapped", false);
             if (CompareTag("Chico"))
@@ -187,6 +195,7 @@ public class PlayerController : MonoBehaviour
             else if (CompareTag("Chica"))
             {
                 spriteRenderer.color = Color.white;
+                
             }
             moveAction.Enable();
             attackAction.Enable();

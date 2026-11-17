@@ -1,52 +1,64 @@
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class ControlVolumen : MonoBehaviour
 {
     public Slider sliderVolumen;
-    public AudioSource musica;
+    public Slider sliderSFX;
+    public AudioMixer myMixer;
 
     void Start()
     {
         if (sliderVolumen == null)
         {
-            sliderVolumen = GameObject.Find("Slider_Volumen").GetComponent<Slider>();
+            GameObject go = GameObject.Find("Slider_Volumen");
+            if (go != null) sliderVolumen = go.GetComponent<Slider>();
         }
-
-        // Aquí está la clave: busca la música que NO se destruyó
-        GeneralMusic fondo = FindFirstObjectByType<GeneralMusic>();
-        if (fondo != null)
+        if (sliderSFX == null)
         {
-            musica = fondo.GetComponent<AudioSource>();
+            GameObject go = GameObject.Find("Slider_SFX");
+            if (go != null) sliderSFX = go.GetComponent<Slider>();
         }
 
-        if (sliderVolumen == null || musica == null) return;
+        float volMusica = PlayerPrefs.GetFloat("VolumenMusica", 0.7f);
+        float volSFX = PlayerPrefs.GetFloat("VolumenSFX", 0.7f);
 
-        float volumenGuardado = 0.7f;
-        if (PlayerPrefs.HasKey("VolumenMusica"))
-            volumenGuardado = PlayerPrefs.GetFloat("VolumenMusica");
+        if (sliderVolumen != null)
+        {
+            sliderVolumen.SetValueWithoutNotify(volMusica);
+            sliderVolumen.onValueChanged.RemoveAllListeners();
+            sliderVolumen.onValueChanged.AddListener(CambiarVolumen);
+        }
 
-        sliderVolumen.value = volumenGuardado;
-        musica.volume = volumenGuardado;
+        if (sliderSFX != null)
+        {
+            sliderSFX.SetValueWithoutNotify(volSFX);
+            sliderSFX.onValueChanged.RemoveAllListeners();
+            sliderSFX.onValueChanged.AddListener(CambiarVolumenSFX);
+        }
 
-        sliderVolumen.onValueChanged.RemoveAllListeners();
-        sliderVolumen.onValueChanged.AddListener(CambiarVolumen);
+        AplicarAlMixer("Musica", volMusica);
+        AplicarAlMixer("SFX", volSFX);
     }
 
-    public void CambiarVolumen(float nuevoVolumen)
+    public void CambiarVolumen(float v)
     {
-        // Si la música que teníamos ya se destruyó, la vuelve a buscar
-        if (musica == null)
-        {
-            GeneralMusic fondo = FindFirstObjectByType<GeneralMusic>();
-            if (fondo != null)
-                musica = fondo.GetComponent<AudioSource>();
-            else
-                return;
-        }
-
-        musica.volume = nuevoVolumen;
-        PlayerPrefs.SetFloat("VolumenMusica", nuevoVolumen);
+        AplicarAlMixer("Musica", v);
+        PlayerPrefs.SetFloat("VolumenMusica", v);
         PlayerPrefs.Save();
+    }
+
+    public void CambiarVolumenSFX(float v)
+    {
+        AplicarAlMixer("SFX", v);
+        PlayerPrefs.SetFloat("VolumenSFX", v);
+        PlayerPrefs.Save();
+    }
+
+    private void AplicarAlMixer(string parametro, float v)
+    {
+        bool ok = myMixer.SetFloat(parametro, Mathf.Log10(Mathf.Max(v, 0.0001f)) * 20);
+        if (!ok) Debug.LogWarning($"El parámetro '{parametro}' no existe en el AudioMixer");
     }
 }

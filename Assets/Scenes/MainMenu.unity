@@ -149,7 +149,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControlVolumen
   sliderVolumen: {fileID: 734077416}
-  musica: {fileID: 799894810}
+  sliderSFX: {fileID: 1155146993}
+  myMixer: {fileID: 24100000, guid: 13c188a7bbefdbc43a06f2a1985f5cd3, type: 2}
 --- !u!4 &132534285
 Transform:
   m_ObjectHideFlags: 0
@@ -596,7 +597,7 @@ AudioSource:
   m_GameObject: {fileID: 799894809}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -5703778629359863612, guid: 13c188a7bbefdbc43a06f2a1985f5cd3, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 8c2522f5cef5a694eb72a65f53b78572, type: 3}
   m_PlayOnAwake: 1
@@ -843,7 +844,7 @@ GameObject:
   - component: {fileID: 1155146994}
   - component: {fileID: 1155146993}
   m_Layer: 5
-  m_Name: Slider_effects
+  m_Name: Slider_SFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

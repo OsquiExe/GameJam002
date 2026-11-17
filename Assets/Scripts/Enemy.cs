@@ -16,10 +16,13 @@
         [SerializeField] private float trapInterval = 5f;
         [SerializeField] private float trapLifetime = 10f; // si es 0 no desaparece
         [SerializeField] private bool placesTraps = false;
+
+        private AudioSource deadSound;
         private float trapTimer;
 
         void Awake()
         {
+            deadSound = GameObject.Find("Enemy Defeat").GetComponent<AudioSource>();
             gameManager = FindFirstObjectByType<GameManager>();
             agent = GetComponent<NavMeshAgent>();
             agent.updateRotation = false;
@@ -98,7 +101,8 @@
                 {
                     gameManager.AddScore(100);
                     gameManager.AddTime(5);
-                Destroy(gameObject);
+                    if (deadSound) deadSound.Play();
+                    Destroy(gameObject);
                 }
             }
         }

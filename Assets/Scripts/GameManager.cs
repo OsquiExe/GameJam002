@@ -14,12 +14,18 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public GameObject panelTrapped;
     public GameObject panelGameOver;
+
+    public AudioSource gameOverSound;
     public int Difficulty { get; private set; }
     public int EnemiesLife { get; private set; }
     public int PlayersTrapped { get; private set; } = 0;
 
     private void Awake()
     {
+        if(PlayerPrefs.HasKey("highScore"))
+        {
+            highScore = PlayerPrefs.GetInt("highScore", 0);
+        }
         //dificultad facil = 1;
         //dificultad normal = 2;
         //dificultad dificil = 3;
@@ -136,6 +142,9 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         Debug.Log("Game Over! Final Score: " + score);
+        PlayerPrefs.SetInt("highScore", highScore);
+        PlayerPrefs.Save();
+        if (gameOverSound) gameOverSound.Play();
         panelTrapped.SetActive(false);
         panelGameOver.SetActive(true);
         Time.timeScale = 0f;

@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: 9283027314f6e07489896ffe4d37b06c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4435194161565918992
+    second: ChicoSprites_0
+  - first:
+      213: 6939409035059834274
+    second: ChicoSprites_1
+  - first:
+      213: 693148747973704180
+    second: ChicoSprites_2
+  - first:
+      213: -8347143764491606089
+    second: ChicoSprites_3
+  - first:
+      213: -3237164568594982108
+    second: ChicoSprites_4
+  - first:
+      213: -9114394145800955080
+    second: ChicoSprites_5
+  - first:
+      213: 2884390586765943396
+    second: ChicoSprites_6
+  - first:
+      213: -24100453465890141
+    second: ChicoSprites_7
+  - first:
+      213: -5289443317538879985
+    second: ChicoSprites_8
+  - first:
+      213: -4492352592739105664
+    second: ChicoSprites_9
+  - first:
+      213: 5517026348405626042
+    second: ChicoSprites_10
+  - first:
+      213: -3571112174802177520
+    second: ChicoSprites_11
+  - first:
+      213: -5598665181705548951
+    second: ChicoSprites_12
+  - first:
+      213: 7426361908944666400
+    second: ChicoSprites_13
+  - first:
+      213: 7752458073027889805
+    second: ChicoSprites_14
+  - first:
+      213: -6974258916787524766
+    second: ChicoSprites_15
+  - first:
+      213: -5829277733500916459
+    second: ChicoSprites_16
+  - first:
+      213: -5694416814330213031
+    second: ChicoSprites_17
+  - first:
+      213: -2109062193739046217
+    second: ChicoSprites_18
+  - first:
+      213: 824766300149513619
+    second: ChicoSprites_19
+  - first:
+      213: 5885927509907692713
+    second: ChicoSprites_20
+  - first:
+      213: 6029234140842287953
+    second: ChicoSprites_21
+  - first:
+      213: -2429423740011808173
+    second: ChicoSprites_22
+  - first:
+      213: 2867456611906044791
+    second: ChicoSprites_23
+  - first:
+      213: 929798526275423574
+    second: ChicoSprites_24
+  - first:
+      213: 4868184420459612982
+    second: ChicoSprites_25
+  - first:
+      213: 2797070936606696942
+    second: ChicoSprites_26
+  - first:
+      213: 1219777718957210948
+    second: ChicoSprites_27
+  - first:
+      213: -4790612654251130280
+    second: ChicoSprites_28
+  - first:
+      213: -4540764362838556064
+    second: ChicoSprites_29
+  - first:
+      213: -8510484219048243401
+    second: ChicoSprites_30
+  - first:
+      213: 2978502622967966194
+    second: ChicoSprites_31
+  - first:
+      213: 550360588873275345
+    second: ChicoSprites_32
+  - first:
+      213: -231836013663501949
+    second: ChicoSprites_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChicoSprites_0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1228
+        width: 136
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017e50e5799fc8d30800000000000000
+      internalID: 4435194161565918992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1228
+        width: 136
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ada0e530cbbd4060800000000000000
+      internalID: 6939409035059834274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_2
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1227
+        width: 136
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9ba732d1f8e9900800000000000000
+      internalID: 693148747973704180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_3
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1220
+        width: 136
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b76c54a8fcf82c80800000000000000
+      internalID: -8347143764491606089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_4
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1230
+        width: 136
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b5a61e9f74313d0800000000000000
+      internalID: -3237164568594982108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_5
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1233
+        width: 136
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b52a480da238180800000000000000
+      internalID: -9114394145800955080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_6
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1246
+        width: 128
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4622aadd4f9670820800000000000000
+      internalID: 2884390586765943396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_7
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1246
+        width: 128
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a26d38e3c06aaff0800000000000000
+      internalID: -24100453465890141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_8
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 1246
+        width: 134
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06088ec35f1896b0800000000000000
+      internalID: -5289443317538879985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_9
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 1246
+        width: 134
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0840bff4e15f7a1c0800000000000000
+      internalID: -4492352592739105664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 970
+        width: 128
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab41031cb3a609c40800000000000000
+      internalID: 5517026348405626042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_11
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 970
+        width: 128
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012f7d7c56cd07ec0800000000000000
+      internalID: -3571112174802177520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_12
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 970
+        width: 145
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96bc7142eab8d42b0800000000000000
+      internalID: -5598665181705548951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_13
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 964
+        width: 132
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f73244fccbf0760800000000000000
+      internalID: 7426361908944666400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_14
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 968
+        width: 152
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8acfea0b83469b60800000000000000
+      internalID: 7752458073027889805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_15
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 969
+        width: 141
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b67456774763f90800000000000000
+      internalID: -6974258916787524766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_16
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 973
+        width: 136
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d659549ce3a1fa0800000000000000
+      internalID: -5829277733500916459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_17
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 969
+        width: 168
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d06d2e31e59f0b0800000000000000
+      internalID: -5694416814330213031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_18
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 969
+        width: 169
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b26afceb1b1bb2e0800000000000000
+      internalID: -2109062193739046217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_19
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 968
+        width: 136
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39dff178498227b00800000000000000
+      internalID: 824766300149513619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_20
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 671
+        width: 136
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac5fb1a2e30fa150800000000000000
+      internalID: 5885927509907692713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_21
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 681
+        width: 136
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153ef80c1842ca350800000000000000
+      internalID: 6029234140842287953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_22
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 684
+        width: 136
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35af1b7eaf3f84ed0800000000000000
+      internalID: -2429423740011808173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_23
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 677
+        width: 136
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773418998904bc720800000000000000
+      internalID: 2867456611906044791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_24
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 686
+        width: 136
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d045755de47ec00800000000000000
+      internalID: 929798526275423574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_25
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 690
+        width: 136
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b069a00f34f8340800000000000000
+      internalID: 4868184420459612982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_26
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 365
+        width: 136
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5e204823131d620800000000000000
+      internalID: 2797070936606696942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_27
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 365
+        width: 146
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d716b6f558de010800000000000000
+      internalID: 1219777718957210948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_28
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 365
+        width: 150
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852ced63c23548db0800000000000000
+      internalID: -4790612654251130280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_29
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 369
+        width: 144
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0624148bed6fbf0c0800000000000000
+      internalID: -4540764362838556064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_30
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 74
+        width: 136
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fcf0971bfa4e980800000000000000
+      internalID: -8510484219048243401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_31
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 74
+        width: 141
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f92394da54c55920800000000000000
+      internalID: 2978502622967966194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_32
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 74
+        width: 151
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d79a262a0643a700800000000000000
+      internalID: 550360588873275345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicoSprites_33
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 77
+        width: 143
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381c177bf5a58ccf0800000000000000
+      internalID: -231836013663501949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChicoSprites_0: 4435194161565918992
+      ChicoSprites_1: 6939409035059834274
+      ChicoSprites_10: 5517026348405626042
+      ChicoSprites_11: -3571112174802177520
+      ChicoSprites_12: -5598665181705548951
+      ChicoSprites_13: 7426361908944666400
+      ChicoSprites_14: 7752458073027889805
+      ChicoSprites_15: -6974258916787524766
+      ChicoSprites_16: -5829277733500916459
+      ChicoSprites_17: -5694416814330213031
+      ChicoSprites_18: -2109062193739046217
+      ChicoSprites_19: 824766300149513619
+      ChicoSprites_2: 693148747973704180
+      ChicoSprites_20: 5885927509907692713
+      ChicoSprites_21: 6029234140842287953
+      ChicoSprites_22: -2429423740011808173
+      ChicoSprites_23: 2867456611906044791
+      ChicoSprites_24: 929798526275423574
+      ChicoSprites_25: 4868184420459612982
+      ChicoSprites_26: 2797070936606696942
+      ChicoSprites_27: 1219777718957210948
+      ChicoSprites_28: -4790612654251130280
+      ChicoSprites_29: -4540764362838556064
+      ChicoSprites_3: -8347143764491606089
+      ChicoSprites_30: -8510484219048243401
+      ChicoSprites_31: 2978502622967966194
+      ChicoSprites_32: 550360588873275345
+      ChicoSprites_33: -231836013663501949
+      ChicoSprites_4: -3237164568594982108
+      ChicoSprites_5: -9114394145800955080
+      ChicoSprites_6: 2884390586765943396
+      ChicoSprites_7: -24100453465890141
+      ChicoSprites_8: -5289443317538879985
+      ChicoSprites_9: -4492352592739105664
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

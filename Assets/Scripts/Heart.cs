@@ -16,11 +16,13 @@ public class Heart : MonoBehaviour
 
     private GameManager gameManager;
     private Spawner spawner;
+    private AudioSource kissSound;
 
     void Awake()
     {
         gameManager = FindFirstObjectByType<GameManager>();
         spawner = FindFirstObjectByType<Spawner>();
+        kissSound = GameObject.Find("Kiss Sound").GetComponent<AudioSource>();
     }
 
     void Update()
@@ -34,14 +36,16 @@ public class Heart : MonoBehaviour
     IEnumerator KissRoutine()
     {
         kissing = true;
-
+        
         male.SetKissMode(true);
         female.SetKissMode(true);
 
         GetComponent<SpriteRenderer>().enabled = false;
         kissObject.SetActive(true);
 
-        yield return new WaitForSeconds(kissDuration);
+        yield return new WaitForSeconds(kissDuration/3);
+        if (kissSound) kissSound.Play();
+        yield return new WaitForSeconds(kissDuration * 2 / 3);
 
         // Posicionarlos a cada lado del corazón
         Vector3 center = transform.position;

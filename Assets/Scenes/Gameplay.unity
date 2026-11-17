@@ -11002,7 +11002,7 @@ GameObject:
   - component: {fileID: 1420033303}
   - component: {fileID: 1420033304}
   m_Layer: 0
-  m_Name: Kiss
+  m_Name: Kiss Sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

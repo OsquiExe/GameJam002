@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 3c78f0e9d68306b4384d589dbfb5bf37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2072896388663240631
+    second: NotasEnemigos_0
+  - first:
+      213: 7180956491136408576
+    second: NotasEnemigos_1
+  - first:
+      213: -1287829995456720662
+    second: NotasEnemigos_2
+  - first:
+      213: -3771417074168901814
+    second: NotasEnemigos_3
+  - first:
+      213: 195455187291739534
+    second: NotasEnemigos_4
+  - first:
+      213: -2113337928814668360
+    second: NotasEnemigos_5
+  - first:
+      213: -1541203494835141204
+    second: NotasEnemigos_6
+  - first:
+      213: -6186282128449060728
+    second: NotasEnemigos_7
+  - first:
+      213: -2280087695701810584
+    second: NotasEnemigos_8
+  - first:
+      213: -1478310453319710993
+    second: NotasEnemigos_9
+  - first:
+      213: 3512060501836036912
+    second: NotasEnemigos_10
+  - first:
+      213: 4079854535453350698
+    second: NotasEnemigos_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NotasEnemigos_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1259
+        width: 145
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948998997b79b33e0800000000000000
+      internalID: -2072896388663240631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NotasEnemigos_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1262
+        width: 155
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c98b1e1e1e7a360800000000000000
+      internalID: 7180956491136408576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NotasEnemigos_2
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1281
+        width: 198
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae095bd3175b02ee0800000000000000
+      internalID: -1287829995456720662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NotasEnemigos_3
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1271
+        width: 145
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fc152272c39abc0800000000000000
+      internalID: -3771417074168901814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NotasEnemigos_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 613
+        width: 96
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e851800157566b200800000000000000
+      internalID: 195455187291739534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NotasEnemigos_5
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 631
+        width: 134
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b554a6c95aeba2e0800000000000000
+      internalID: -2113337928814668360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NotasEnemigos_6
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 628
+        width: 184
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5c2cb469b8c9ae0800000000000000
+      internalID: -1541203494835141204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NotasEnemigos_7
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 613
+        width: 96
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88042753e29e52aa0800000000000000
+      internalID: -6186282128449060728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NotasEnemigos_8
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 97
+        width: 111
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86264f832508b50e0800000000000000
+      internalID: -2280087695701810584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NotasEnemigos_9
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 97
+        width: 101
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6c122a97cfb7be0800000000000000
+      internalID: -1478310453319710993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NotasEnemigos_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 101
+        width: 81
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bfd913b685db030800000000000000
+      internalID: 3512060501836036912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NotasEnemigos_11
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 115
+        width: 68
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b96f0851e8e9830800000000000000
+      internalID: 4079854535453350698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NotasEnemigos_0: -2072896388663240631
+      NotasEnemigos_1: 7180956491136408576
+      NotasEnemigos_10: 3512060501836036912
+      NotasEnemigos_11: 4079854535453350698
+      NotasEnemigos_2: -1287829995456720662
+      NotasEnemigos_3: -3771417074168901814
+      NotasEnemigos_4: 195455187291739534
+      NotasEnemigos_5: -2113337928814668360
+      NotasEnemigos_6: -1541203494835141204
+      NotasEnemigos_7: -6186282128449060728
+      NotasEnemigos_8: -2280087695701810584
+      NotasEnemigos_9: -1478310453319710993
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public InputAction moveAction;
     private Vector2 moveInput;
     [SerializeField] private GameObject golpePrefab;
+    [SerializeField] private GameObject colliderGolpePrefab;
     public InputAction attackAction;
     private GameManager gameManager;
     private Animator animator;
@@ -156,8 +157,11 @@ public class PlayerController : MonoBehaviour
     IEnumerator ActivateHit()
     {
         golpePrefab.SetActive(true);
-        yield return new WaitForSeconds(activateInterval);
+        yield return new WaitForSeconds(activateInterval/2);
+        colliderGolpePrefab.SetActive(true);
+        yield return new WaitForSeconds(activateInterval / 2);
         golpePrefab.SetActive(false);
+        colliderGolpePrefab.SetActive(false);
     }
     public void Trapped()
     {

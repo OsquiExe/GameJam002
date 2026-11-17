@@ -89,6 +89,7 @@ public class Spawner : MonoBehaviour
                 GameObject obj = Instantiate(enemyPrefab, hit.position, Quaternion.identity);
                 enemies.Add(obj);
                 obj.GetComponent<Enemy>().Init(q.patrolPoints, CurrentSpeed, gameManager.Difficulty > 2); // Solo en dificultad difícil se colocan trampas
+                obj.GetComponent<Animator>().SetInteger("Enemy", Random.Range(1, 4));
                 found = true;
             }
 

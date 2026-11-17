@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public GameObject panelTrapped;
     public GameObject panelGameOver;
+    public TextMeshProUGUI scoreGameOverText;
 
     public AudioSource gameOverSound;
     public int Difficulty { get; private set; }
@@ -80,7 +81,7 @@ public class GameManager : MonoBehaviour
                 timer = 45; // agrega 45 segundos
                 break;
             case 3:
-                timer = 30; // agrega 30 segundos
+                timer = 35; // agrega 35 segundos
                 break;
         }
         timerText.text = timer.ToString();
@@ -99,12 +100,17 @@ public class GameManager : MonoBehaviour
         {
             highScore = score;
         }
+        if(score < 0)
+        {
+            score = 0;
+        }
         ShowScore();
     }
 
     public void ShowScore()
     {
         scoreText.text = $"Score: {score}\nHigh Score: {highScore}";
+        scoreGameOverText.text = $"Score: {score}\nHigh Score: {highScore}";
     }
 
     public void PlayerTrapped()
